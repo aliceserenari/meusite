@@ -1,0 +1,50 @@
+body {
+    color:rgb(55, 12, 68);   
+    background:rgb(117, 11, 152);
+    margin: 0px;
+    font-family: "Faculty Glyphic", serif;
+
+}
+
+header {
+    border-bottom: solid 2px rgb(53, 8, 65);
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(128, 37, 155);
+}
+
+
+.chamada{
+    background: rgb(99, 17, 121);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+img{
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
